@@ -6,7 +6,7 @@ The point cloud in laz format was obtained from [IGN](https://centrodedescargas.
 2. [py3dtiles](https://py3dtiles.org/) to generate the Cesium 3D tiles files from the las file
 
 Commands used:
-'''
+´´´
 laszip64 -i ./pointcloud.laz -o ./pointcloud.las
 py3dtiles convert ./pointclod.las --out ./3DTiles
-'''
+´´´
